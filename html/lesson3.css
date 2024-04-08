@@ -1,0 +1,129 @@
+table,
+th,
+td {
+    border: 1px solid black;
+    padding: 10px;
+    /* padding: 10px 15px 5px 8px; */
+    /* padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-left: 8px; */
+}
+
+table {
+    border-collapse: collapse;
+    /* border-spacing: 20px; */
+}
+
+td {
+    text-align: center;
+}
+
+.phone {
+    width: 300px;
+    /* background: yellow; */
+}
+
+.p1,
+.p2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.p1 {
+    color: red;
+    background: yellow;
+    border-radius: 8px;
+    border: 2px solid green;
+    /* border-width: 2px;
+    border-style: dotted;
+    border-color: green; */
+}
+
+.p2 {
+    color: purple;
+    background: aqua;
+}
+
+th {
+    background-color: bisque;
+}
+
+/* cut */
+tr:nth-child(even) {
+    background-color: yellow;
+}
+
+/* tek */
+tr:nth-child(odd) {
+    background-color: aqua;
+}
+
+/* LIST */
+
+ul {
+    list-style: circle;
+}
+
+p span {
+    color: red;
+    background-color: yellow;
+    font-weight: bold;
+}
+
+/* info div */
+
+.info {
+    background-color: bisque;
+    padding: 10px;
+    /* border-radius: 8px; */
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    border-left: 4px solid green;
+
+    width: 650px;
+}
+
+.info h1 {
+    font-size: 20px;
+    color: blue;
+}
+
+.info p {
+    font-size: 17px;
+    color: #6e6c6c;
+}
+
+div.box {
+    width: 600px;
+    color: aquamarine;
+    background-color: red;
+}
+
+p.box {
+    width: 400px;
+    color: purple;
+    background-color: aqua;
+}
+
+/* 
+    GUCLER 
+    id = 100
+    class = 10
+    element = 1
+*/
+
+#id1 {
+    background-color: yellow;
+    color: red;
+}
+
+.box2 {
+    background-color: blueviolet;
+    color: bisque;
+}
+
+div {
+    background-color: chartreuse;
+    color: blueviolet;
+}
