@@ -1,0 +1,23 @@
+.link {
+    color: indigo;
+    text-decoration: none;
+    background: yellow;
+    padding: 5px;
+}
+
+header ul {
+    list-style: none;
+}
+
+footer ul {
+    list-style: circle;
+}
+
+.form1 label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form1 input {
+    margin-bottom: 10px;
+}

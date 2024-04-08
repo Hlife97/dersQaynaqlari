@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Micro+5&display=swap');
+
+
+div.center {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(114, 39, 184, 0.5);
+
+    /* opacity: 0.4; */
+
+    text-align: center;
+    line-height: 200px;
+}
+
+.box {
+    background-color: rgb(146, 90, 21);
+    /* width: 900px; */
+    max-width: 900px;
+    height: 200px;
+
+    border: 20px solid rgb(200, 14, 207);
+    outline: 4px dotted rgb(50, 99, 9);
+    /* outline-offset: 20px; */
+
+
+    padding: 10px;
+    margin-top: 40px;
+
+    /* padding-top: 30px;
+    padding-left: 50px; */
+
+    /* padding: 30px 0 0 50px; */
+    margin-bottom: 30px;
+}
+
+.box p {
+    /* padding: 10px 20px; */
+    padding: 0;
+    background-color: aqua;
+    margin: 0;
+}
+
+.box span {
+    background-color: aquamarine;
+    /* display: block; */
+}
+
+ul {
+    /* list-style: none; */
+    /* margin: 5px; */
+    /* padding: 0; */
+
+    /* text-transform: capitalize; */
+
+    /* font-family: "Madimi One", sans-serif; */
+    /* font-family: "Micro 5", sans-serif; */
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1.center {
+    /* 1 ci soldan saga, ikinci yuxardan asagi, ucuncu blur 4 cu radius 5 ci reng */
+    text-shadow: 5px 7px 7px #666;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    font-style: italic;
+    /* font-family: 'Birinci Fontun adi', 'ikinci font adi', 'ucuncu font adi', sans-serif; */
+}
+
+/* .container {
+    font-size: 20px;
+} */
+
+.container p.center {
+    font-weight: normal;
+    background-color: yellow;
+
+    /* 1 em = 16px => 32px */
+    /* 1 em = 20px */
+    font-size: 1.25em;
+}
+
+/* p.center {} */
+
+
+ul i {
+    color: red;
+    font-size: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* pseudo classes */
+
+ul li a:hover {
+    color: rgb(78, 204, 50);
+    border-bottom: 2px solid red;
+    /* transition: all .7s ease; */
+}
+
+.box:hover {
+    background-color: blue;
+}

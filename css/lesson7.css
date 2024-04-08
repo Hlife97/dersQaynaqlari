@@ -1,0 +1,82 @@
+.menu {
+    list-style: none;
+    padding: 0;
+
+    display: flex;
+    gap: 15px;
+}
+
+.dropdown {
+    list-style: none;
+    padding: 0;
+
+    display: none;
+
+    background-color: yellow;
+    padding: 5px;
+
+    position: absolute;
+}
+
+.service:hover .dropdown {
+    display: block;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.box {
+    border: 1px solid black;
+}
+
+/* imagelerin responsive etmek ucun */
+.box img {
+    width: 100%;
+    height: auto;
+
+    opacity: .6;
+}
+
+.box p {
+    text-align: center;
+}
+
+.box:hover {
+    box-shadow: 3px 3px 7px #a3eae6;
+}
+
+.box:hover img {
+    transition: all .7s ease;
+    opacity: 1;
+}
+
+a {
+    text-decoration: none;
+    font-size: 23px;
+}
+
+a[target="_blank"] {
+    color: green;
+    background-color: yellow;
+}
+
+input[type="email"] {
+    background-color: yellow;
+}
+
+/* test ile baslasin - ile ayrilsin */
+/* [class|="test"] {
+    background-color: green;
+} */
+
+/* test ile baslasin butun hamisi */
+/* [class^="test"] {
+    background-color: rgb(0, 34, 128);
+} */
+
+/* test sozu ile bitenler */
+[class$="test"] {
+    background-color: rgb(0, 128, 64);
+}
